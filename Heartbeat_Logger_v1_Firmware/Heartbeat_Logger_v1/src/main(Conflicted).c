@@ -653,6 +653,7 @@ void die(void){
 
 void ADC_Handler(){
 	
+	ioport_toggle_pin_level(EXT_STATUS_PIN);
 	//Result is ready, put it in buffer
 	if(buffer_counter < BUFFER_SIZE){
 	
@@ -684,7 +685,7 @@ void ADC_Handler(){
 		
 		//Buffer overflow
 		RLED_on();
-		buffer_counter = 0;
+		
 	}
 		
 	

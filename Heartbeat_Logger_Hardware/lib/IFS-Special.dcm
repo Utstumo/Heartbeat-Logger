@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HC-06
+D HC-06 Bluetooth Serial Adapter
+K HC-06, Bluetooth, Serial, Adapter
+$ENDCMP
+#
+$CMP M74HC595TTR
+D 8-bit shift register with output latches
+K M74HC595TTR, shift, register
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000339.pdf
+$ENDCMP
+#
+$CMP MAX1555EZK
+D 1 Cell Li+ Battery Charger, SOT23-5
+K Li, Battery, Charger, SOT23-5
+F https://datasheets.maximintegrated.com/en/ds/MAX1551-MAX1555.pdf
+$ENDCMP
+#
+$CMP TL431AMFDT
+D Adjustable Shunt Regulator SOT23-3
+K TL431
+F http://www.nxp.com/documents/data_sheet/TL431_FAM.pdf
+$ENDCMP
+#
+#End Doc Library
